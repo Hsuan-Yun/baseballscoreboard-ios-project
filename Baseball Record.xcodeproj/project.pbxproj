@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093317072BE3331F00233560 /* Baseball_RecordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093317062BE3331F00233560 /* Baseball_RecordApp.swift */; };
+		0933170B2BE3332000233560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0933170A2BE3332000233560 /* Assets.xcassets */; };
+		0933170E2BE3332000233560 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0933170D2BE3332000233560 /* Preview Assets.xcassets */; };
+		093317182BE3332000233560 /* Baseball_RecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093317172BE3332000233560 /* Baseball_RecordTests.swift */; };
+		093317222BE3332000233560 /* Baseball_RecordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093317212BE3332000233560 /* Baseball_RecordUITests.swift */; };
+		093317242BE3332000233560 /* Baseball_RecordUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093317232BE3332000233560 /* Baseball_RecordUITestsLaunchTests.swift */; };
+		093317312BE3336400233560 /* BaseballTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093317302BE3336400233560 /* BaseballTabView.swift */; };
+		093317332BE335AE00233560 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093317322BE335AE00233560 /* BackgroundView.swift */; };
+		093317372BE3366A00233560 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093317362BE3366A00233560 /* Model.swift */; };
+		093317392BE33B0100233560 /* GamesInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093317382BE33B0100233560 /* GamesInformationView.swift */; };
+		093F10972BE47D96000E9DE1 /* SessionsInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093F10962BE47D96000E9DE1 /* SessionsInformationView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		093317142BE3332000233560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 093316FB2BE3331F00233560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 093317022BE3331F00233560;
+			remoteInfo = "Baseball Record";
+		};
+		0933171E2BE3332000233560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 093316FB2BE3331F00233560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 093317022BE3331F00233560;
+			remoteInfo = "Baseball Record";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		093317032BE3331F00233560 /* Baseball Record.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baseball Record.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		093317062BE3331F00233560 /* Baseball_RecordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baseball_RecordApp.swift; sourceTree = "<group>"; };
+		0933170A2BE3332000233560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0933170D2BE3332000233560 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		093317132BE3332000233560 /* Baseball RecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baseball RecordTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		093317172BE3332000233560 /* Baseball_RecordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baseball_RecordTests.swift; sourceTree = "<group>"; };
+		0933171D2BE3332000233560 /* Baseball RecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baseball RecordUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		093317212BE3332000233560 /* Baseball_RecordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baseball_RecordUITests.swift; sourceTree = "<group>"; };
+		093317232BE3332000233560 /* Baseball_RecordUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baseball_RecordUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		093317302BE3336400233560 /* BaseballTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballTabView.swift; sourceTree = "<group>"; };
+		093317322BE335AE00233560 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		093317362BE3366A00233560 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		093317382BE33B0100233560 /* GamesInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesInformationView.swift; sourceTree = "<group>"; };
+		093F10962BE47D96000E9DE1 /* SessionsInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsInformationView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		093317002BE3331F00233560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093317102BE3332000233560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0933171A2BE3332000233560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093316FA2BE3331F00233560 = {
+			isa = PBXGroup;
+			children = (
+				093317052BE3331F00233560 /* Baseball Record */,
+				093317162BE3332000233560 /* Baseball RecordTests */,
+				093317202BE3332000233560 /* Baseball RecordUITests */,
+				093317042BE3331F00233560 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		093317042BE3331F00233560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				093317032BE3331F00233560 /* Baseball Record.app */,
+				093317132BE3332000233560 /* Baseball RecordTests.xctest */,
+				0933171D2BE3332000233560 /* Baseball RecordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		093317052BE3331F00233560 /* Baseball Record */ = {
+			isa = PBXGroup;
+			children = (
+				093317362BE3366A00233560 /* Model.swift */,
+				093317062BE3331F00233560 /* Baseball_RecordApp.swift */,
+				093317322BE335AE00233560 /* BackgroundView.swift */,
+				093317302BE3336400233560 /* BaseballTabView.swift */,
+				093317382BE33B0100233560 /* GamesInformationView.swift */,
+				093F10962BE47D96000E9DE1 /* SessionsInformationView.swift */,
+				0933170A2BE3332000233560 /* Assets.xcassets */,
+				0933170C2BE3332000233560 /* Preview Content */,
+			);
+			path = "Baseball Record";
+			sourceTree = "<group>";
+		};
+		0933170C2BE3332000233560 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0933170D2BE3332000233560 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		093317162BE3332000233560 /* Baseball RecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				093317172BE3332000233560 /* Baseball_RecordTests.swift */,
+			);
+			path = "Baseball RecordTests";
+			sourceTree = "<group>";
+		};
+		093317202BE3332000233560 /* Baseball RecordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				093317212BE3332000233560 /* Baseball_RecordUITests.swift */,
+				093317232BE3332000233560 /* Baseball_RecordUITestsLaunchTests.swift */,
+			);
+			path = "Baseball RecordUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		093317022BE3331F00233560 /* Baseball Record */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093317272BE3332000233560 /* Build configuration list for PBXNativeTarget "Baseball Record" */;
+			buildPhases = (
+				093316FF2BE3331F00233560 /* Sources */,
+				093317002BE3331F00233560 /* Frameworks */,
+				093317012BE3331F00233560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Baseball Record";
+			productName = "Baseball Record";
+			productReference = 093317032BE3331F00233560 /* Baseball Record.app */;
+			productType = "com.apple.product-type.application";
+		};
+		093317122BE3332000233560 /* Baseball RecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0933172A2BE3332000233560 /* Build configuration list for PBXNativeTarget "Baseball RecordTests" */;
+			buildPhases = (
+				0933170F2BE3332000233560 /* Sources */,
+				093317102BE3332000233560 /* Frameworks */,
+				093317112BE3332000233560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				093317152BE3332000233560 /* PBXTargetDependency */,
+			);
+			name = "Baseball RecordTests";
+			productName = "Baseball RecordTests";
+			productReference = 093317132BE3332000233560 /* Baseball RecordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0933171C2BE3332000233560 /* Baseball RecordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0933172D2BE3332000233560 /* Build configuration list for PBXNativeTarget "Baseball RecordUITests" */;
+			buildPhases = (
+				093317192BE3332000233560 /* Sources */,
+				0933171A2BE3332000233560 /* Frameworks */,
+				0933171B2BE3332000233560 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0933171F2BE3332000233560 /* PBXTargetDependency */,
+			);
+			name = "Baseball RecordUITests";
+			productName = "Baseball RecordUITests";
+			productReference = 0933171D2BE3332000233560 /* Baseball RecordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		093316FB2BE3331F00233560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					093317022BE3331F00233560 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					093317122BE3332000233560 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 093317022BE3331F00233560;
+					};
+					0933171C2BE3332000233560 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 093317022BE3331F00233560;
+					};
+				};
+			};
+			buildConfigurationList = 093316FE2BE3331F00233560 /* Build configuration list for PBXProject "Baseball Record" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 093316FA2BE3331F00233560;
+			productRefGroup = 093317042BE3331F00233560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				093317022BE3331F00233560 /* Baseball Record */,
+				093317122BE3332000233560 /* Baseball RecordTests */,
+				0933171C2BE3332000233560 /* Baseball RecordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		093317012BE3331F00233560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0933170E2BE3332000233560 /* Preview Assets.xcassets in Resources */,
+				0933170B2BE3332000233560 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093317112BE3332000233560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0933171B2BE3332000233560 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		093316FF2BE3331F00233560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093317392BE33B0100233560 /* GamesInformationView.swift in Sources */,
+				093317332BE335AE00233560 /* BackgroundView.swift in Sources */,
+				093317312BE3336400233560 /* BaseballTabView.swift in Sources */,
+				093317072BE3331F00233560 /* Baseball_RecordApp.swift in Sources */,
+				093F10972BE47D96000E9DE1 /* SessionsInformationView.swift in Sources */,
+				093317372BE3366A00233560 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0933170F2BE3332000233560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093317182BE3332000233560 /* Baseball_RecordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093317192BE3332000233560 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093317222BE3332000233560 /* Baseball_RecordUITests.swift in Sources */,
+				093317242BE3332000233560 /* Baseball_RecordUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		093317152BE3332000233560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 093317022BE3331F00233560 /* Baseball Record */;
+			targetProxy = 093317142BE3332000233560 /* PBXContainerItemProxy */;
+		};
+		0933171F2BE3332000233560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 093317022BE3331F00233560 /* Baseball Record */;
+			targetProxy = 0933171E2BE3332000233560 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		093317252BE3332000233560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		093317262BE3332000233560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		093317282BE3332000233560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Baseball Record/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fcu.Baseball-Record";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		093317292BE3332000233560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Baseball Record/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fcu.Baseball-Record";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0933172B2BE3332000233560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fcu.Baseball-RecordTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baseball Record.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Baseball Record";
+			};
+			name = Debug;
+		};
+		0933172C2BE3332000233560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fcu.Baseball-RecordTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baseball Record.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Baseball Record";
+			};
+			name = Release;
+		};
+		0933172E2BE3332000233560 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fcu.Baseball-RecordUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Baseball Record";
+			};
+			name = Debug;
+		};
+		0933172F2BE3332000233560 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fcu.Baseball-RecordUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Baseball Record";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		093316FE2BE3331F00233560 /* Build configuration list for PBXProject "Baseball Record" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093317252BE3332000233560 /* Debug */,
+				093317262BE3332000233560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093317272BE3332000233560 /* Build configuration list for PBXNativeTarget "Baseball Record" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093317282BE3332000233560 /* Debug */,
+				093317292BE3332000233560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0933172A2BE3332000233560 /* Build configuration list for PBXNativeTarget "Baseball RecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0933172B2BE3332000233560 /* Debug */,
+				0933172C2BE3332000233560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0933172D2BE3332000233560 /* Build configuration list for PBXNativeTarget "Baseball RecordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0933172E2BE3332000233560 /* Debug */,
+				0933172F2BE3332000233560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 093316FB2BE3331F00233560 /* Project object */;
+}
